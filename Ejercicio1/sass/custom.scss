@@ -1,0 +1,17 @@
+$primary:#5265E1;
+$secondary:#FA5959;
+
+
+.bg-pattern{
+    height: 34%;
+    width: 25rem;
+    border-radius: 40% 0% 0% 40%;
+    z-index: -1;
+    margin-top: -16rem !important;
+    margin-bottom: 25rem;
+}
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
