@@ -1,8 +1,8 @@
 $primary:#5265E1;
 $secondary:#FA5959;
+$nav-link-color: gray;
 
-
-.bg-pattern{
+.bg-pattern-right{
     height: 34%;
     width: 25rem;
     border-radius: 40% 0% 0% 40%;
@@ -10,7 +10,27 @@ $secondary:#FA5959;
     margin-top: -16rem !important;
     margin-bottom: 25rem;
 }
+.bg-pattern-left{
+    height: 34%;
+    width: 25rem;
+    border-radius: 0% 40% 40% 0%;
+    z-index: -1;
+    margin-top: -15rem !important;
+    margin-bottom: 25rem;
+}
+.nav-tabs{
+    border-bottom: none!important;
+    
+}
 
+ .nav-tabs .nav-link.active{
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 2px solid #FA5959!important;
+ }
+
+ 
 
 
 
