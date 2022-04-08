@@ -1,6 +1,7 @@
 $primary:#5265E1;
 $secondary:#FA5959;
 $nav-link-color: gray;
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 .bg-pattern-right{
     height: 34%;
@@ -22,16 +23,50 @@ $nav-link-color: gray;
     border-bottom: none!important;
     
 }
-
  .nav-tabs .nav-link.active{
      border-top: none;
      border-left: none;
      border-right: none;
      border-bottom: 2px solid #FA5959!important;
- }
+}
 
+ .card-img-top{
+    width: 80px!important;
+}
  
+.row-cards{
+    width: 80%;
+}
+.card.custom-cards{
+    border: none!important;
+    border-radius: 1.0rem!important;
+}
+.separator{
+    border-top: 1px solid rgba(160, 151, 151, 0.53);
+    border-top-style: dotted;
+    border-top-width: 6px;
+}
+.accordion-flush .accordion-item .accordion-button{
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
 
+.accordion-button:not(.collapsed){
+    background-color: white!important;
+    border-color: white!important;
+    color: black!important;
+}
+.accordion-button:focus{
+    border-color: white!important;
+    box-shadow: none!important;
+}
+.accordion-button:hover{
+    color: $secondary;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(/Ejercicio1/Imagenes/icon-arrow.svg)!important;
+    fill: red!important;
+}
+.accordion-button::after{
+    background-image: url(/Ejercicio1/Imagenes/icon-arrow.svg)!important;
+}
 
-
-@import "../node_modules/bootstrap/scss/bootstrap";
