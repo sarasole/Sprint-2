@@ -1,8 +1,13 @@
 $primary:#5265E1;
 $secondary:#FA5959;
+
 $nav-link-color: gray;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.nav-link:hover{
+color: $secondary!important;
+}
 .bg-pattern-right{
     height: 34%;
     width: 25rem;
@@ -29,6 +34,10 @@ $nav-link-color: gray;
      border-right: none;
      border-bottom: 2px solid #FA5959!important;
 }
+.nav-tabs .nav-link:hover{
+    color: $secondary!important;
+    border:none!important;
+}
 
  .card-img-top{
     width: 80px!important;
@@ -40,6 +49,16 @@ $nav-link-color: gray;
 .card.custom-cards{
     border: none!important;
     border-radius: 1.0rem!important;
+}
+.custom-btn:hover{
+    background-color: white!important;
+    color: $primary!important;
+    border: solid 2px $primary!important;
+}
+.custom-btn-black:hover{
+    background-color: white!important;
+    color: black!important;
+    border: solid 2px black!important;
 }
 .separator{
     border-top: 1px solid rgba(160, 151, 151, 0.53);
@@ -69,4 +88,28 @@ $nav-link-color: gray;
 .accordion-button::after{
     background-image: url(/Ejercicio1/Imagenes/icon-arrow.svg)!important;
 }
+
+.custom-letterspacing{
+    letter-spacing: 0.3rem;
+}
+.custom-button {
+    width: 100%;
+}
+.custom-button:hover{
+    background-color: #fff;
+    color: $secondary!important;
+    border: solid 2px $secondary!important;
+}
+footer{
+    background-color: #242946;
+}
+input#inputEmail{
+    font-size: 0.8rem!important;
+    margin-bottom: -5px!important;
+}
+.invalid-feedback {
+    font-style: italic;
+    font-size: 0.8rem!important;
+}
+
 
